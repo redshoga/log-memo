@@ -4,8 +4,8 @@
   "description": "Simple memo app",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "author": "redshoga",
   "license": "MIT",
@@ -13,7 +13,8 @@
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3",
     "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "private": true,
   "dependencies": {

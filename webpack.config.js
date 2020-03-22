@@ -12,10 +12,14 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".ts", ".tsx"]
+    extensions: [".js", ".jsx", ".ts", ".tsx"]
   },
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'public/')
+    path: path.join(__dirname, 'public')
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    port: 3000
   }
 };
