@@ -1,9 +1,9 @@
 {
-  "name": "memo-log",
-  "short_name": "memo-log",
+  "name": "Memo Log",
+  "short_name": "Memo Log",
   "theme_color": "#9aef27",
-  "background_color": "#9aef27",
-  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "display": "browser",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "/",
