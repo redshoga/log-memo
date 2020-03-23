@@ -3,7 +3,7 @@
   "short_name": "Memo Log",
   "theme_color": "#9aef27",
   "background_color": "#ffffff",
-  "display": "fullscreen",
+  "display": "browser",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "/",
