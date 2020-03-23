@@ -16,7 +16,11 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx", ".ts", ".tsx"]
+    extensions: [".js", ".jsx", ".ts", ".tsx"],
+    alias: {
+      preact: path.resolve(__dirname, 'node_modules', 'preact'),
+      'preact/hooks': path.resolve(__dirname, 'node_modules', 'preact', 'hooks'),
+    }
   },
   output: {
     filename: 'bundle.js',

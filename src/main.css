@@ -1,3 +1,11 @@
-.hello {
-  color: red;
+html, body, .container {
+  height: 100%;
+}
+
+body, textarea {
+  font-family: sans-serif;
+}
+
+.container {
+  padding-top: 30px;
 }
